@@ -61,7 +61,6 @@ fn main() -> anyhow::Result<()> {
 
                     sleep(Duration::from_millis(200));
                 }
-
             }
 
             col_pin.set_high()?;
